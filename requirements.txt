@@ -5,4 +5,4 @@ pandas
 jsonschema==4.18.4
 pymongo[srv]==4.4.1
 dnspython
-#-e .
+-e .
