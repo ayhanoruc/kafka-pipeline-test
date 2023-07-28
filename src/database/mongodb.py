@@ -4,13 +4,12 @@ import certifi
 
 ca= certifi.where()
 
-MONGO_DB_URL= "mongodb+srv://ayhanoruc:Ayhan.orc54@cluster0.iwqnmeh.mongodb.net/?retryWrites=true&w=majority"
 url= os.getenv('MONGO_DB_URL')
 class MongodbOperation:
 
     def __init__(self) -> None:
         
-        self.client= pymongo.MongoClient(MONGO_DB_URL,tlsCAFile=ca)
+        self.client= pymongo.MongoClient(url,tlsCAFile=ca)
         self.db_name = "ayhanoruc"
 
     
