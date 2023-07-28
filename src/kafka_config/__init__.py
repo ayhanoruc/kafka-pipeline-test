@@ -19,7 +19,7 @@ def sasl_conf():
 
 
     sasl_conf= {
-        'sals.mechanism' : SSL_MACHENISM,
+        'sasl.mechanism' : SSL_MACHENISM,
         'bootstrap.servers': BOOTSTRAP_SERVER,
         'security.protocol': SECURITY_PROTOCOL,
         'sasl.username': API_KEY,
