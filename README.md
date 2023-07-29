@@ -25,3 +25,5 @@ git branch -M main
 git remote add origin https://github.com/<username>/<project_name>.git
 git push -u origin main
 ```
+
+# !!! the dict_to_object and __init__.py funcs. in generic.py are incomplete.
